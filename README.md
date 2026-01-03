@@ -1,4 +1,5 @@
 Loan Prediction Project
+
 📌 Project Overview
 
 This project focuses on loan approval prediction using a given dataset.
