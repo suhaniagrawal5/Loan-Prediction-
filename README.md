@@ -1,4 +1,4 @@
-# 🏦 Loan Approval Prediction
+# Loan Approval Prediction
 
 A machine learning classification project that predicts whether a loan application will be approved or rejected based on applicant financial metrics and demographics.
 
