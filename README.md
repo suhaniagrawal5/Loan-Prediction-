@@ -1,15 +1,13 @@
-Loan Prediction Project
+# 🏦 Loan Approval Prediction
 
-📌 Project Overview
+A machine learning classification project that predicts whether a loan application will be approved or rejected based on applicant financial metrics and demographics.
 
-This project focuses on loan approval prediction using a given dataset.
-The objective is to analyze applicant data and predict whether a loan is likely to be approved or not based on various features.
-While the model accuracy is not optimal, this project represents an important learning step in understanding machine learning workflows, data preprocessing, and model evaluation. The emphasis of this project is on learning and experimentation, rather than achieving perfect performance.
+---
 
-🎯 Problem Statement
+### 🔑 Key Highlights
 
-Financial institutions need to evaluate loan applications efficiently to reduce risk.
-The goal of this project is to:
-Analyze historical loan data.
-Preprocess and clean the dataset.
-Train a machine learning model to predict loan approval status.
+* **Objective:** Binary classification to predict loan approval (`Y` or `N`).
+* **Feature Engineering:** Derived yearly total income, normalized loan amounts, converted loan terms to years, and applied log transformations to fix right-skewed financial metrics.
+* **Data Preprocessing:** Handled missing data via median/mode imputation, standard feature scaling, and one-hot encoding for categorical variables.
+* **Leakage Prevention:** Managed preprocessing and model fitting strictly through `scikit-learn` pipelines to ensure zero data leakage between training and testing sets.
+* **Model Handling:** Evaluated Logistic Regression with balanced class weights to address target dataset imbalance.
